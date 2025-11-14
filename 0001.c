@@ -1,22 +1,30 @@
 #include<stdio.h>
+
 main()
 {
-    float Calificacion1;
-    float Calificacion2;
-    float Calificacion3;
-    float Calificacion4;
-    float Promedio;
+    float notaA;
+    float notaB;
+    float notaC;
+    float notaD;
+    float promedioFinal;
+
     printf("Ingresa la primer calificacion \n");
-    scanf("%f", &Calificacion1);
+    scanf("%f", &notaA);
+
     printf("Ingresa la segunda calificacion \n");
-    scanf("%f", &Calificacion2);
+    scanf("%f", &notaB);
+
     printf("Ingresa la tercera calificacion \n");
-    scanf("%f", &Calificacion3);
+    scanf("%f", &notaC);
+
     printf("Ingresa la cuarta calificacion \n");
-    scanf("%f", &Calificacion4);
-    Promedio=(Calificacion1+Calificacion2+Calificacion3+Calificacion4)/4;
-    printf("Tu promedio es de: %.1f \n", Promedio);
-    if(Promedio>6)
+    scanf("%f", &notaD);
+
+    promedioFinal = (notaA + notaB + notaC + notaD) / 4;
+
+    printf("Tu promedio es de: %.1f \n", promedioFinal);
+
+    if(promedioFinal > 6)
     {
         printf("Estas aprobado");
     }
@@ -25,3 +33,4 @@ main()
         printf("Estas reprobado");
     }
 }
+
