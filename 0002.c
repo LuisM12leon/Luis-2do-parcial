@@ -1,26 +1,28 @@
 #include<stdio.h>
 
 main() {
-    float rCilindro;
-    float hCilindro;
-    float valorPi;
-    float areaTotal;
-    float volumenTotal;
+    float radioFig;
+    float alturaFig;
+    float constantePi;
+    float resultadoArea;
+    float resultadoVol;
 
     printf("Ingresa el radio \n");
-    scanf("%f", &rCilindro);
+    scanf("%f", &radioFig);
 
     printf("Ingresa la altura \n");
-    scanf("%f", &hCilindro);
+    scanf("%f", &alturaFig);
 
     printf("Ingresa el valor que ocuparas para pi \n");
-    scanf("%f", &valorPi);
+    scanf("%f", &constantePi);
 
-    areaTotal = 2 * (valorPi * rCilindro * hCilindro) + 2 * (valorPi * (rCilindro * rCilindro));
-    volumenTotal = (valorPi * (rCilindro * rCilindro) * hCilindro);
+    resultadoArea = 2 * (constantePi * radioFig * alturaFig) + 2 * (constantePi * (radioFig * radioFig));
+    resultadoVol = (constantePi * (radioFig * radioFig) * alturaFig);
 
-    printf("El area es de: %.2f \n", areaTotal);
-    printf("El volumen es de: %.2f \n", volumenTotal);
+    printf("El area es de: %.2f \n", resultadoArea);
+    printf("El volumen es de: %.2f \n", resultadoVol);
 }
+
+
 
 
