@@ -1,12 +1,11 @@
 #include<stdio.h>
-main(){
-float M2;
-float Resultado;
 
-printf("Ingresa el area del terreno \n");
-scanf("%f",M2);
+main() {
+    float areaTerreno;
+    float precioTotal;
 
-Resultado = (1500.00*M2);
+    printf("Ingresa el area del terreno \n");
+    scanf("%f", &areaTerreno);
 
-printf("El precio es de: %.2f", Resultado);
-}
+    precioTotal = 1500.00 * ar*
+
