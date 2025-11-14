@@ -1,20 +1,23 @@
 #include<stdio.h>
-main(){
-float N1;
-float N2;
-float N3;
-float Resultado;
 
-printf("Ingresa el primer numero \n");
-scanf("%f", &N1);
+main() {
+    float valorA;
+    float valorB;
+    float valorC;
+    float productoFinal;
 
-printf("Ingresa el segundo numero \n");
-scanf("%f", &N2);
+    printf("Ingresa el primer numero \n");
+    scanf("%f", &valorA);
 
-printf("Ingresael tercer numero \n");
-scanf("%f", &N3);
+    printf("Ingresa el segundo numero \n");
+    scanf("%f", &valorB);
 
-Resultado = N1*N2*N3;
+    printf("Ingresa el tercer numero \n");
+    scanf("%f", &valorC);
 
-printf("El resultado es: %.2f", Resultado);
+    productoFinal = valorA * valorB * valorC;
+
+    printf("El resultado es: %.2f", productoFinal);
 }
+
+
