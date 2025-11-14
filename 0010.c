@@ -1,19 +1,15 @@
 #include<stdio.h>
+
 main()
 {
-    int Modelo;
-    int Marca;
-    int Ano;
-    int Coche;
+    int tipoMarca;
+    int tipoModelo;
+    int tipoAno;
+    int descripcionAuto;
+
     printf("Ingresa la marca de tu automovil \n");
-    scanf("%d", &Marca);
+    scanf("%d", &tipoMarca);
 
     printf("Ingresa el modelo \n");
-    scanf("%d", &Modelo);
+    scanf("%d", &tipoModelo);
 
-    printf("Ingresa el ano \n");
-    scanf("%d", &Ano);
-
-    Coche = Marca+Modelo+Ano;
-    printf("Tu coche es: %d", Coche);
-}
